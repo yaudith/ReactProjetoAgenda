@@ -1,0 +1,55 @@
+.inputSearch{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputSearch input{
+    width: 25%;
+    height: 30px;
+    border-radius: 30px;
+    outline: none;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: none;
+    color:hsl(272, 87%, 24%);
+}
+
+.data-table{
+    width: 100%;
+    border-spacing: 0 0.3rem;
+    color:var(#be8fe6);
+    font-size: 1rem;
+} 
+
+td{
+    background: #be8fe6;
+    padding: 1rem 2rem;
+}
+
+table th{
+    background: #be8fe6;
+    font-weight: 600;
+    padding: 1rem 2rem;
+
+    text-align: left;
+    color:var(#be8fe6);
+}
+
+table thead tr th:first-child,
+table tbody tr td:first-child{
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+table thead tr th:last-child,
+table tbody tr td:last-child{
+    border-radius: 0rem 0.25rem 0.25rem 0rem;
+}
+
+table tbody td{
+    background: #be8fe6;
+    padding: 1rem 1rem;
+} 
+
+a{
+    cursor: pointer;
+}
